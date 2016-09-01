@@ -3,7 +3,7 @@
 %% @end
 %%%-------------------------------------------------------------------
 
--module(erlang-kafka_sup).
+-module(ek_sup).
 
 -behaviour(supervisor).
 

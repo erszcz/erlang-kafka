@@ -1,9 +1,7 @@
-erlang-kafka
-=====
+# erlang-kafka
 
 An OTP application
 
-Build
------
+## Build
 
     $ rebar3 compile

@@ -3,7 +3,7 @@
 %% @end
 %%%-------------------------------------------------------------------
 
--module(erlang-kafka_app).
+-module(ek_app).
 
 -behaviour(application).
 
@@ -16,7 +16,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    erlang-kafka_sup:start_link().
+    ek_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->

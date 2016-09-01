@@ -1,8 +1,8 @@
-{application, erlang-kafka,
+{application, erlang_kafka,
  [{description, "An OTP application"},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, { erlang-kafka_app, []}},
+  {mod, {ek_app, []}},
   {applications,
    [kernel,
     stdlib
