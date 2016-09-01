@@ -5,7 +5,8 @@
   {mod, {ek_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    kafe
    ]},
   {env,[]},
   {modules, []},
