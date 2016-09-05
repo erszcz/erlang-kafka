@@ -2,6 +2,12 @@
  {<<"bucs">>,{pkg,<<"bucs">>,<<"0.1.8">>},1},
  {<<"doteki">>,{pkg,<<"doteki">>,<<"0.1.11">>},1},
  {<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.8">>},2},
- {<<"kafe">>,{pkg,<<"kafe">>,<<"1.6.1">>},0},
+ {<<"kafe">>,
+  {git,"https://github.com/botsunit/kafe.git",
+       {ref,"915535d49c708a85c7f95607f461c9e9ae6c542f"}},
+  0},
  {<<"lager">>,{pkg,<<"lager">>,<<"3.2.1">>},1},
- {<<"poolgirl">>,{pkg,<<"poolgirl">>,<<"0.1.2">>},1}].
+ {<<"poolgirl">>,
+  {git,"https://github.com/botsunit/poolgirl.git",
+       {ref,"0ded1186cdefb717a28189077f2fd168e70304b7"}},
+  1}].
