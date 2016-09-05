@@ -1,7 +1,8 @@
 # erlang-kafka
 
-An OTP application
+A toy application to try out [kafe](https://github.com/botsunit/kafe).
 
-## Build
+## Run
 
-    $ rebar3 compile
+    $ ./rebar3 release
+    $ ./rebar3 shell
